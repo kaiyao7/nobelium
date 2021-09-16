@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { useEffect, useRef } from 'react'
 import Link from 'next/link'
 import BLOG from '@/blog.config'
