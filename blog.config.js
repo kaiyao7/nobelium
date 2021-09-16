@@ -1,23 +1,23 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
+  title: "希林析桑",
+  author: '桑',
+  email: '',
+  link: 'https://nobelium-gamma-six.vercel.app',//这个关联到RSS，填主页就行了
+  description: 'whatever~',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
-  lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#18181B', // use hex value, don't forget '#'
+  lightBackground: '#bed2e1', // use hex value, don't forget '#' e.g #fffefc
+  darkBackground: '#2b2a3b', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // If leave this empty, current year will be used.
+  since: 1645, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  ogImageGenerateURL: '', // The link to generate OG image, don't end with a slash
+  socialLink: 'https://t.me/KAIYAO7',//关联到post页的作者头像
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
@@ -37,21 +37,21 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'utterances', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: '', // The repository of store comments
+      repo: '', // The repository of store comments，确保仓库开启public
       owner: '',
-      admin: [],
+      admin: [''],
       clientID: '',
       clientSecret: '',
       distractionFreeMode: false
     },
     utterancesConfig: {
-      repo: ''
+      repo: 'kaiyao7/Akaisblog'
     },
     cusdisConfig: {
       appId: '', // data-app-id
-      host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
+      host: '', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
     }
   },
